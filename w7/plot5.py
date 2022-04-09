@@ -8,6 +8,7 @@ plt.ylabel("y values")
 
 xs = range(-100,100,10)
 x2 = [x**2 for x in xs]
+
 plt.plot(xs, x2)
 plt.savefig("quad.png")
 plt.show()
