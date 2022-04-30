@@ -1,7 +1,12 @@
 import matplotlib.pyplot as plt
 
-fig = plt.figure()
-ax = fig.add_subplot(2, 2, 1)
+fig, axes = plt.subplots(3, 3)
+x = range(0, 10, 1)
+y = range(0, 20, 2)
 
-plt.savefig("subplot2.png")
+
+axes[0,0].plot(x, y)
+axes[1,0].plot(x, y)
+
+plt.savefig("subplot3.png")
 plt.show()

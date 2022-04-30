@@ -15,7 +15,7 @@ y = np.array([10, 20, 30, 40])
 
 plt.subplot(1, 2, 2)
 plt.plot(x,y)
-plt.title("Income")
+plt.title("Income")#give tiutle to each graph
 
-plt.suptitle("MY BUSSINESS")
+plt.suptitle("MY BUSSINESS")#give supertitle
 plt.show()
