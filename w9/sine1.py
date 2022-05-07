@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 from matplotlib import animation
-import numpy as np
+import numpy as np # import for trigonometry calculations
 
 # First set up the figure, the axis, and the plot element we want to animate
 fig = plt.figure()
@@ -20,8 +20,7 @@ def animate(i):
     return line,
 
 # call the animator.  blit=True means only re-draw the parts that have changed.
-anim = animation.FuncAnimation(fig, animate, init_func=init,
-                               frames=200, interval=20, blit=True)
+anim = animation.FuncAnimation(fig, animate, init_func=init, frames=200, interval=20, blit=True)
 
 # save the animation as an mp4.  This requires ffmpeg or mencoder to be
 # installed.  The extra_args ensure that the x264 codec is used, so that

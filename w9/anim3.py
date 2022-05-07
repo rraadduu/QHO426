@@ -17,6 +17,9 @@ def run():
                                               animate, 
                                               frames = 10, 
                                               interval = 1000)
+  
+  animation.save('line_animation.mp4', fps = 30, extra_args=['-vcodec', 'libx264'])
+  
   plt.show()
 
 run()

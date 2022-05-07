@@ -17,6 +17,5 @@ def update(frame):
     ln.set_data(xdata, ydata)
     return ln,
 
-ani = FuncAnimation(fig, update, frames=np.linspace(0, 2*np.pi, 128),
-                    init_func=init, blit=True)
+ani = FuncAnimation(fig, update, frames=np.linspace(0, 2*np.pi, 128), init_func=init, blit=True)
 plt.show()
