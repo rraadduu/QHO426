@@ -1,7 +1,7 @@
 class MyClass:
-  x = 5clear
+  x = 5
 
-"""
+
 p1 = MyClass()
 print(p1.x)
 
@@ -27,9 +27,9 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
-"""
 
-"""
+
+
 
 class PartyAnimal:
   x = 0
@@ -43,4 +43,3 @@ an = PartyAnimal()
 print("Type", type(an))
 print("Dir ", dir(an))
 
-"""
