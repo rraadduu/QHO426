@@ -29,8 +29,6 @@ p1 = Person("John", 36)
 p1.myfunc()
 
 
-
-
 class PartyAnimal:
   x = 0
 
